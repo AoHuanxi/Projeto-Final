@@ -1,0 +1,55 @@
+body {
+    background-color: #fff;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.img {
+    background-image: url(../img/bode.png);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #f644c7;
+}
+
+.login::after {
+    content: '';
+    display: block;
+    width: 10rem;
+    height: 0.3rem;
+    background-color: #B0D7F4;
+    margin: 0;
+    margin-top: 0.3rem;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.radio-group {
+    vertical-align: middle;
+}
+
+.botao {
+    background: #fff;
+}
+
+.radio-input {
+    font-size: 0.8rem !important;
+}
+
+.d-grid .btn {
+    background-color: #B0D7F4;
+    transition: .2s;
+}
+
+.d-grid .btn:hover {
+    background-color: #7fb6e0;
+}

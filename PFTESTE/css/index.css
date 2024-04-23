@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap');
+
+
+body {
+    margin-top: 105px;
+    background-color: #fff !important;
+}
+
+.navbar {
+    box-shadow: 2px 2px 5px #83838371;
+    background: #fafafa;
+    padding-bottom: 2rem; 
+}
+
+.navbar-brand h3{
+    color: #301732;
+    transition: .3s !important;
+}
+
+.navbar-brand h3:hover{
+    color: #ce0097;
+}
+
+.navbar .nav-item {
+    color: #301732;
+    font-size: 1.05rem;
+    padding-right: 0.01rem;
+}
+
+.navbar .dropdown-item {
+    color: #301732;
+}
+
+.navbar .nav-link{
+    color: #301732 !important;
+    transition: .3s !important;
+}
+
+.navbar .nav-link:hover {
+    color: #ce0097 !important;
+}
+
+.hero-header{
+    margin-bottom: -15vh;
+}
+
+.hero-header h1{
+    color: #ce0097;
+}
+
+.hero-img img{
+    box-shadow: 2px 2px 5px #83838371;
+}
+
+.content {
+    margin: 0;
+}
+
+.content svg{
+    width: 100%;
+    margin: 0;
+    position: sticky;
+}
+
+.apresent h1{
+    color: #301732;
+}
+
+.card{
+    transition: .3s !important;
+    box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.2);
+}
+
+.card:hover{
+    box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.3);
+}
+
+.card-body{
+    color: #301732;
+}
+
+.svgg{
+    width: 100%;
+    margin: 0;
+    margin-top: -66rem;
+    position: sticky;
+}
+
+.footer{
+    margin: 0;
+    box-shadow: 0px -3px 17px -1px rgba(0,0,0,0.43);
+}
+
+.footer .nav-link{
+    transition: .3s !important;
+}
+
